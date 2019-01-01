@@ -4,7 +4,7 @@
   "description": "Capsule backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nyc mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -17,8 +17,10 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "expect": "^23.6.0",
     "express": "^4.16.4",
     "jwt-simple": "^0.5.5",
+    "mocha": "^5.2.0",
     "mongoose": "^5.3.6",
     "nodemon": "^1.18.4",
     "request": "^2.88.0"
