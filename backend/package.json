@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Capsule backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmvijayaramkumar/Capsule.git"
+  },
+  "author": "Vijay",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "mongoose": "^5.3.6",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "jasmine": "^3.3.1",
+    "jasmine-node": "^1.16.2"
+  },
+  "bugs": {
+    "url": "https://github.com/mmvijayaramkumar/Capsule/issues"
+  },
+  "homepage": "https://github.com/mmvijayaramkumar/Capsule#readme"
+}
