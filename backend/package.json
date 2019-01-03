@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "nyc mocha",
+    "build": "webpack",
     "start": "node server.js"
   },
   "repository": {
