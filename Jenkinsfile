@@ -5,7 +5,7 @@ pipeline {
         stage('Build Task Manager Frontend') {
             steps {
                 echo 'Building Task Manager Frontend..'
-                bat 'npm install'
+                bat 'cd ./frontend/ && npm install && npm run build --prod'
             }
         }
     }
