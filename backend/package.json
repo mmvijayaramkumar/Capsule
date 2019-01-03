@@ -27,8 +27,7 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "istanbul": "^1.1.0-alpha.1",
-    "jasmine": "^3.3.1",
-    "jasmine-node": "^1.16.2"
+    "jasmine": "^3.3.1"
   },
   "bugs": {
     "url": "https://github.com/mmvijayaramkumar/Capsule/issues"
