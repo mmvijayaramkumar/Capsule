@@ -21,5 +21,11 @@ pipeline {
                 bat 'cd ./backend/ && npm test'
             }
         }
+        stage('Node Frontend - Testing') {
+            steps {
+                echo 'Testing Frontend...'
+                bat 'cd ./frontend/ && npm test'
+            }
+        }
     }
 }
