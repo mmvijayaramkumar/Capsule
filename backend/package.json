@@ -23,6 +23,7 @@
     "jwt-simple": "^0.5.5",
     "mocha": "^5.2.0",
     "mongoose": "^5.3.6",
+    "nyc": "^13.1.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
