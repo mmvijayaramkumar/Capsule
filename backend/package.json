@@ -4,7 +4,7 @@
   "description": "Capsule backend",
   "main": "server.js",
   "scripts": {
-    "test": "nyc mocha",
+    "test": "nyc --reporter=html mocha --exit",
     "build": "webpack",
     "start": "node server.js"
   },
