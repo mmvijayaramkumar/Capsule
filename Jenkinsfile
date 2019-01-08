@@ -27,5 +27,10 @@ pipeline {
                 bat 'cd ./frontend/ && npm test'
             }
         }
+        stage('Final Deployment') {
+            steps {
+                echo 'Deploying App...'
+            }
+        }
     }
 }
